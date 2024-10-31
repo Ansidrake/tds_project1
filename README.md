@@ -1,6 +1,6 @@
 # GitHub Users in moscow
 
-This repository contains data about GitHub users in moscow with over 100 followers and their repositories.
+This repository contains data about GitHub users in moscow with over 50 followers and their repositories.
 
 ## Files
 
@@ -12,5 +12,5 @@ This repository contains data about GitHub users in moscow with over 100 followe
 
 - Data collected using GitHub API
 - Date of collection: 2024-10-31
-- Only included users with 100+ followers
+- Only included users with 50+ followers
 - Up to 500 most recently pushed repositories per user
