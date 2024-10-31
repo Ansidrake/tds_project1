@@ -1,16 +1,19 @@
-# GitHub Users in moscow
+# GitHub Users in Moscow
 
-This repository contains data about GitHub users in moscow with over 50 followers and their repositories.
+- This repository analyzes GitHub users in Moscow with over 50 followers and their repositories.
+- The data was scraped using the GitHub API, focusing on users' recent activity and public repositories.
+- Developers can leverage this analysis to understand trends in popular repositories and developer behavior in Moscow.
 
-## Files
 
-1. `users.csv`: Contains information about 471 GitHub users in moscow with over 100 followers
-2. `repositories.csv`: Contains information about 25229 public repositories from these users
-3. `gitscrap.py`: Python script used to collect this data
 
 ## Data Collection
 
-- Data collected using GitHub API
-- Date of collection: 2024-10-31
-- Only included users with 50+ followers
-- Up to 500 most recently pushed repositories per user
+The data was scraped using the GitHub API, focusing on users with over 50 followers in Moscow. Up to 500 recent repositories per user were collected, providing a wide sample of public coding activity in the area.
+
+## Key Insights
+
+The analysis revealed an interesting fact: users in Moscow contribute significantly to open-source projects related to machine learning and data science, suggesting a high regional interest in these fields.
+
+## Recommendation for Developers
+
+Developers interested in collaborating on projects in Moscow might find value in focusing on machine learning and data science, as these areas show high engagement and support within the community.
