@@ -151,7 +151,7 @@ class GitHubScraper:
 
 def main():
     # Get GitHub token
-    token = input("Enter your GitHub token: ").strip()
+    token = "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"
     if not token:
         print("Token is required. Exiting...")
         return
@@ -159,8 +159,8 @@ def main():
     # Initialize scraper
     scraper = GitHubScraper(token)
     
-    # Search for users in Delhi with >100 followers
-    users = scraper.search_users(location='Delhi', min_followers=100)
+    # Search for users in moscow with >100 followers
+    users = scraper.search_users(location='moscow', min_followers=50)
     
     # Save users to CSV
     users_df = pd.DataFrame(users)
@@ -180,13 +180,13 @@ def main():
     
     # Create README.md
     with open('README.md', 'w') as f:
-        f.write(f"""# GitHub Users in Delhi
+        f.write(f"""# GitHub Users in moscow
 
-This repository contains data about GitHub users in Delhi with over 100 followers and their repositories.
+This repository contains data about GitHub users in moscow with over 100 followers and their repositories.
 
 ## Files
 
-1. `users.csv`: Contains information about {len(users)} GitHub users in Delhi with over 100 followers
+1. `users.csv`: Contains information about {len(users)} GitHub users in moscow with over 100 followers
 2. `repositories.csv`: Contains information about {len(all_repos)} public repositories from these users
 3. `gitscrap.py`: Python script used to collect this data
 

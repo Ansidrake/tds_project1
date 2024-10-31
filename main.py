@@ -6,8 +6,8 @@ import pandas as pd
 
 # GitHub API token and headers
 #*********************************************************************************
-GITHUB_TOKEN = '977951'      
-CITY='Moscow'    
+GITHUB_TOKEN = '361677'      
+CITY='moscow'    
 FOLLOWERS=50     
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"}
 
