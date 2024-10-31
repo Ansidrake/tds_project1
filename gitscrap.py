@@ -151,7 +151,7 @@ class GitHubScraper:
 
 def main():
     # Get GitHub token
-    token = "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"
+    token = ""
     if not token:
         print("Token is required. Exiting...")
         return
